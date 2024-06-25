@@ -1,0 +1,128 @@
+
+#productCarousel {
+    margin: 20px auto; 
+    padding: 15px;
+    max-width: 90%; 
+    border: 1px solid #ddd;
+    background-color: #f8f9fa; 
+}
+
+#banner {
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+}
+#Banner Image {
+    width: 100%;
+    height: auto;
+}
+
+#about {
+    margin-top: 150px;
+    padding: 50px 50px;
+    background-color: #f8f9fa;
+}
+#about h2 {
+    margin-bottom: 20px;
+}
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+article {
+    margin-bottom: 20px; 
+    border: 1px solid #ddd; 
+    padding: 10px;
+}
+
+#foter {
+    margin-top: 150px;
+    padding: 50px 50px;
+}
+ /* Custom styles for discounts section */
+ #discounts {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  #discounts h2 {
+    margin-bottom: 30px;
+  }
+  .product {
+    margin-bottom: 30px;
+  }
+  .product .card {
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .product .card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  .product .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  .product .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .product .card-text {
+    text-decoration: line-through;
+    color: #888;
+  }
+  .product .discount-price {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  /* Custom styles for sidebar with other offers */
+  #sidebar {
+    position: sticky;
+    top: 100px;
+  }
+  #sidebar .list-group-item {
+    cursor: pointer;
+    border: none;
+  }
+  #sidebar .list-group-item:hover {
+    background-color: #f0f0f0;
+  }
+  .sidebar-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .sidebar-card .article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .sidebar-card .card {
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .sidebar-card .card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  .sidebar-card .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  .sidebar-card .card-body {
+    padding: 10px;
+  }
+  .sidebar-card .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+
+.sidebar-card .card .card-body .card-text {
+   text-decoration: line-through;
+   color: #888;
+ }
